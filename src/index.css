@@ -79,3 +79,19 @@ body {
 .form [type="submit"]:hover {
   background-color: #0CB387;
 }
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.error::before {
+  content: '';
+  display: block;
+  background-color: red;
+  width: .5rem;
+  height: 3rem;
+  border-radius: .2rem;
+}
